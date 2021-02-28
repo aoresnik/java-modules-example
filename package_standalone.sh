@@ -6,7 +6,7 @@ set -e
 rm -rf out-standalone
 
 jlink --launcher modules-example=xyz.aoresnik.exercise.modules.main_noauto \
-    --module-path out-jar \
+    --module-path out-jar/modules \
     --add-modules xyz.aoresnik.exercise.modules.main_noauto \
     --bind-services \
     --strip-debug --no-header-files --no-man-pages \

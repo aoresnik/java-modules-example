@@ -42,6 +42,7 @@ Hello world from serviceimpl_b!
 Hello world from serviceimpl_a!
 Hello world from openmodule!
 Hello world from automaticmodule!
+Hello world from unnamedmodule!
 
 Running from standalone jlink-ed distribution (without automatic module, since automatic modules are not supported by jlink):
 ================
