@@ -57,6 +57,14 @@ Hello world from openmodule!
 
 ```
 
+## Viewing dependencies with `jdeps`
+
+Dependencies of modules can be shown with `jdeps`:
+```
+jdeps --module-path out-jar/modules -classpath out-jar/classpath/unnamed-module.jar -m xyz.aoresnik.exercise.modules.main
+
+```
+
 
 ## Notes
 
